@@ -32,7 +32,7 @@ main{
     height: calc(100vh - 80px);
     width: 100%;
     background-color: white;
-    background-image: url(/img/mic.jpg);
+    background-image: url(./img/mic.jpg);
     background-size: cover;
 }
 
@@ -134,7 +134,7 @@ h2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    gri-gap: 10px;
+    grid-gap: 10px;
 }
 
 .grid-item img {
