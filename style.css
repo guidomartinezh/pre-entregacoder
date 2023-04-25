@@ -64,13 +64,18 @@ h2{
     font-size: 20px;
 }
 
+.tituloquehacemos{
+    margin: 70px;
+    font-size: 30px;
+}
+
 .nosotros{
     height: 600px;
 }
 
 .titulonosotros{
-    margin: 15px;
-    margin-top: 80px;
+    margin: 70px;
+    font-size: 30px;
 }
 
 .contenedor{
@@ -125,59 +130,20 @@ h2{
     font-family: 'Montserrat', sans-serif;
 }
 
-.clientes{
-    height: 100px;
-    width: auto;
-    background-color: white;
+.grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-gap: 30px 30px;
-    margin: 30px;
-    margin-top: 80px;
-    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gri-gap: 10px;
 }
 
-.cliente:hover{
-    height: 300px;
-    width: auto;
-    background-position: center;
-    background-size: cover;
-    align-items: center;
-    padding: 50px;
-    transition: 1.1s;
-    transform: rotate(360deg)
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 
-
-form{
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.304);
-    margin: auto;
-    padding: 30px;
-    border: 2px;
-    border-style: double;
-    border-color: rgb(0, 0, 0);
-}
-
-input{
-    width: 100%;
-    padding: 5px;
-    margin: 10px;
-    text-align: center;
-    font-size: 16px;
-}
-
-.sectionformulario{
-    padding: 150px;
-}
-
-.tituloformulario{
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
 
 .mainproyectos{
     background-color: rgb(0, 0, 0);
@@ -206,8 +172,9 @@ footer{
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
-    position: sticky;
     margin-top: auto;
+    position: fixed;
+	bottom: 0;
 }
 
 .footerclientes{
@@ -218,8 +185,8 @@ footer{
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
-    position: sticky;
-    margin-top: 700px;
+    position: fixed;
+    margin-top: 90px;
 }
 
 .footerproyectos{
@@ -230,8 +197,9 @@ footer{
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
-    position: sticky;
     margin-top: 0px;
+    position: sticky;
+	bottom: 0;
 }
     
 
