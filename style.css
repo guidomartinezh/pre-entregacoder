@@ -4,33 +4,40 @@
     box-sizing: border-box;
 }
 
+
 body{
     height: 100%;
 }
+
 
 .navbar{
     font-family: 'Montserrat', sans-serif;
     font-size:large
 }
 
+
 .navbar-brand{
     font-weight: bolder;
 }
 
+
 ul li{
     display: inline;
 }
+
 
 li a{
     text-decoration: none;
     color: white;
 }
 
+
 main{
     height: calc(100vh - 80px);
     width: 100%;
     background-color: white;
 }
+
 
 .mainhome{
     height: calc(100vh - 80px);
@@ -40,17 +47,18 @@ main{
     background-size: cover;
 }
 
+
 .mainreel{
     background-color: rgb(0, 0, 0);
     height: 100vh;
     padding-bottom:0px
 }
 
+
 iframe{
     height: 100vh;
     width: 100%;
 }
-
 
 
 h2{
@@ -60,6 +68,7 @@ h2{
     font-size: 30px;
     padding: 10px;
 }
+
 
 .lemamain{
     height: 600px;
@@ -72,19 +81,23 @@ h2{
     font-size: 20px;
 }
 
+
 .tituloquehacemos{
     margin: 70px;
     font-size: 30px;
 }
 
+
 .nosotros{
     height: 600px;
 }
+
 
 .titulonosotros{
     margin: 70px;
     font-size: 30px;
 }
+
 
 .contenedor{
     display: grid;
@@ -98,6 +111,7 @@ h2{
     place-items: center;
     grid-gap: 30px;
 }
+
 
 .item{
     height: 250px;
@@ -124,6 +138,7 @@ h2{
     grid-gap: 10px;
 }
 
+
 .grid-item img {
     max-width: 100%;
     height: auto;
@@ -144,6 +159,7 @@ h2{
     text-align: center;
 }
 
+
 .carousel-item{
     background-position: center;
     background-repeat: non-repeat;
@@ -151,7 +167,6 @@ h2{
     width: 100%;
     height: 100vh;
 }
-
 
 
 footer{
@@ -202,12 +217,12 @@ footer{
     padding: 0%;
 }
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:768px){
 
     .mainhome{
         height: calc(100vh - 80px);
         width: 100%;
-        background-color: rgb(162, 13, 13);
+        background-color: rgb(255, 255, 255);
         background-image: url(./img/mic.jpg);
         background-size: cover;
         background-position: center;
@@ -228,12 +243,17 @@ footer{
         background-color: rgb(255, 255, 255);
     }
 
+
     .item{
         height: 100%;
         width: 250px;
         background-color: white;
         background-size: cover;
-        background-position: center;
+        background-position: center;     
+    }
+
+    .item img{
+        border-radius: 50px;
         
     }
 
